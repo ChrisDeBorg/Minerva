@@ -2,7 +2,7 @@
 using Microsoft.Extensions.AI;
 using Microsoft.Extensions.VectorData;
 
-namespace Minverva.ChatWeb.Services.Ingestion;
+namespace Minerva.ChatWeb.Services.Ingestion;
 
 public class DataIngestor(
     ILogger<DataIngestor> logger,
@@ -19,7 +19,7 @@ public class DataIngestor(
 
     public async Task IngestDataAsync(IIngestionSource source)
     {
-        var vectorCollection = vectorStore.GetCollection<string, SemanticSearchRecord>("data-minverva_chatweb-ingested");
+        var vectorCollection = vectorStore.GetCollection<string, SemanticSearchRecord>("data-minerva_chatweb-ingested");
         await vectorCollection.CreateCollectionIfNotExistsAsync();
 
         var documentsForSource = ingestionCacheDb.Documents

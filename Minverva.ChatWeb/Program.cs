@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.AI;
 using Microsoft.Extensions.VectorData;
-using Minverva.ChatWeb.Components;
-using Minverva.ChatWeb.Services;
-using Minverva.ChatWeb.Services.Ingestion;
+using Minerva.ChatWeb.Components;
+using Minerva.ChatWeb.Services;
+using Minerva.ChatWeb.Services.Ingestion;
 using OllamaSharp;
 
 var builder = WebApplication.CreateBuilder(args);

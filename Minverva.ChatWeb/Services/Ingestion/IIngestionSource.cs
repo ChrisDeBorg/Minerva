@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.AI;
 
-namespace Minverva.ChatWeb.Services.Ingestion;
+namespace Minerva.ChatWeb.Services.Ingestion;
 
 public interface IIngestionSource
 {

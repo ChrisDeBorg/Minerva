@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 
-namespace Minverva.ChatWeb.Services;
+namespace Minerva.ChatWeb.Services;
 
 /// <summary>
 /// This IVectorStore implementation is for prototyping only. Do not use this in production.

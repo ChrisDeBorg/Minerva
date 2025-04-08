@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Minverva.ChatWeb.Services.Ingestion;
+namespace Minerva.ChatWeb.Services.Ingestion;
 
 // A DbContext that keeps track of which documents have been ingested.
 // This makes it possible to avoid re-ingesting documents that have not changed,

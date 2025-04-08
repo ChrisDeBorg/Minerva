@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.Console", "Minerva.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataModels", "Minerva.DataModels\Minerva.DataModels.csproj", "{166CAD6A-B387-4987-8C3A-E11D7DBFA659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minverva.ChatWeb", "Minverva.ChatWeb\Minverva.ChatWeb.csproj", "{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.ChatWeb", "Minverva.ChatWeb\Minerva.ChatWeb.csproj", "{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

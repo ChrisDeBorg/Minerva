@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="CreativeWorks\" />
-    <Folder Include="Relations\" />
   </ItemGroup>
 
 </Project>

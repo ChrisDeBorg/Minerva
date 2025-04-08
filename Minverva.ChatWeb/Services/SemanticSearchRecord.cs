@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.VectorData;
 
-namespace Minverva.ChatWeb.Services;
+namespace Minerva.ChatWeb.Services;
 
 public class SemanticSearchRecord
 {

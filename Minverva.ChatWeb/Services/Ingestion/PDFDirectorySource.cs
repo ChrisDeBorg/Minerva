@@ -6,7 +6,7 @@ using UglyToad.PdfPig;
 using Microsoft.Extensions.AI;
 using UglyToad.PdfPig.Content;
 
-namespace Minverva.ChatWeb.Services.Ingestion;
+namespace Minerva.ChatWeb.Services.Ingestion;
 
 public class PDFDirectorySource(string sourceDirectory) : IIngestionSource
 {
