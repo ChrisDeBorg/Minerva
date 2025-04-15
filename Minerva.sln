@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataModels", "Miner
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.ChatWeb", "Minerva.ChatWeb\Minerva.ChatWeb.csproj", "{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.WebApi", "Minerva.WebApi\Minerva.WebApi.csproj", "{458E8EE9-2969-4602-B704-2122077DE8DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.Persistence", "Minerva.Persistence\Minerva.Persistence.csproj", "{6737EC8E-0249-49F3-B94D-59E503631A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataAccess", "Minerva.DataAccess\Minerva.DataAccess.csproj", "{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458E8EE9-2969-4602-B704-2122077DE8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458E8EE9-2969-4602-B704-2122077DE8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458E8EE9-2969-4602-B704-2122077DE8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458E8EE9-2969-4602-B704-2122077DE8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6737EC8E-0249-49F3-B94D-59E503631A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6737EC8E-0249-49F3-B94D-59E503631A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6737EC8E-0249-49F3-B94D-59E503631A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6737EC8E-0249-49F3-B94D-59E503631A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

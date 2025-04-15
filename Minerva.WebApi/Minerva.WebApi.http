@@ -1,0 +1,6 @@
+@Minerva.WebApi_HostAddress = http://localhost:5079
+
+GET {{Minerva.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
