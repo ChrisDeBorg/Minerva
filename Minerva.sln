@@ -9,13 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.Console", "Minerva.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataModels", "Minerva.DataModels\Minerva.DataModels.csproj", "{166CAD6A-B387-4987-8C3A-E11D7DBFA659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.ChatWeb", "Minerva.ChatWeb\Minerva.ChatWeb.csproj", "{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.WebApi", "Minerva.WebApi\Minerva.WebApi.csproj", "{458E8EE9-2969-4602-B704-2122077DE8DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.Persistence", "Minerva.Persistence\Minerva.Persistence.csproj", "{6737EC8E-0249-49F3-B94D-59E503631A7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataAccess", "Minerva.DataAccess\Minerva.DataAccess.csproj", "{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileScraper", "FileScraper\FileScraper.csproj", "{D0ECD525-AC56-4A13-9846-968BA71F6DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataScraper", "Minerva.DataScraper\Minerva.DataScraper.csproj", "{257B1EFE-CFD4-4A68-891D-9C4BDC3AF261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,6 @@ Global
 		{166CAD6A-B387-4987-8C3A-E11D7DBFA659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166CAD6A-B387-4987-8C3A-E11D7DBFA659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166CAD6A-B387-4987-8C3A-E11D7DBFA659}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEAA1E0C-80D5-D093-8DC6-0BBEE2D6F0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{458E8EE9-2969-4602-B704-2122077DE8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{458E8EE9-2969-4602-B704-2122077DE8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{458E8EE9-2969-4602-B704-2122077DE8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +49,14 @@ Global
 		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479A2BDD-29A1-40BB-B83F-8B137B30D8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0ECD525-AC56-4A13-9846-968BA71F6DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0ECD525-AC56-4A13-9846-968BA71F6DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0ECD525-AC56-4A13-9846-968BA71F6DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0ECD525-AC56-4A13-9846-968BA71F6DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257B1EFE-CFD4-4A68-891D-9C4BDC3AF261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257B1EFE-CFD4-4A68-891D-9C4BDC3AF261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257B1EFE-CFD4-4A68-891D-9C4BDC3AF261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257B1EFE-CFD4-4A68-891D-9C4BDC3AF261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

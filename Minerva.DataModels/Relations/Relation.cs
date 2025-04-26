@@ -12,8 +12,6 @@ namespace Minerva.DataModels.Relations
     public record Relation : BaseRecord
     {
         public int Id { get; init; }
-        public int SourceEntityId1 { get; init; }
-
         public int SourceEntityId { get; init; }
         public int TargetEntityId { get; init; }
         public string RelationType { get; init; }
